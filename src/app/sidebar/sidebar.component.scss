@@ -1,0 +1,45 @@
+.image1{
+    border-radius: 60%;
+    width: 80px;
+    height: 80px;
+    flex-direction: column;
+    
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+    color: black;
+    padding-left:5%;
+    
+  }
+  
+  mat-icon {
+    margin-right: 10px; 
+  }  
+  
+
+.icons{
+    display: flex;    
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.text{
+  padding: 5%;
+}
+
+
+
+
+
+
+
+

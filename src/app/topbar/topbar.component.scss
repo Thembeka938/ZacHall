@@ -1,0 +1,40 @@
+.ellipsis-menu {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+  }
+  
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 4px;
+    
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: rgb(101, 240, 101);
+  }
+  .settings-arrow {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+  }
+  
+  .arrow {
+    font-size: 14px;
+    margin-right: 5px;
+  }
+  
+  .text {
+    font-size: 16px;
+  }
+    
