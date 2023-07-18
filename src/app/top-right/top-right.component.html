@@ -1,13 +1,12 @@
-<div class="container">
-
-<img src="../../assets/logo.jpg" class="image1">
-<label>Zac Hall</label>
-       
-<mat-icon>videocam</mat-icon>
-<mat-icon>phone</mat-icon>
-<mat-icon>search</mat-icon>
-<mat-icon>keyboard_arrow_down</mat-icon>
-</div>
-
-
-
+<div class="myRightSide">
+    <div class="picture">
+      <img src="../../assets/logo.jpg" class="image">
+      <label>Zac Hall</label>
+    </div>
+  
+    <div class="icons">
+      <mat-icon *ngFor="let icon of icons">{{ icon }}</mat-icon>
+    </div>
+  </div>
+  
+      

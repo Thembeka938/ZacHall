@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class TopRightComponent {
 
+  icons: string[] = ['tv', 'phone', '|', 'search', 'keyboard_arrow_down'];
+
 }
