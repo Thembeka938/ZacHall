@@ -9,11 +9,12 @@ export class SidebarComponent {
   items: any[] = [
     { icon: 'notifications', label: 'Notifications' },
     { icon: 'security', label: 'Security' },
-    { icon: 'light', label: 'Theme' },
-    { icon: 'image', label: 'Chat Wallpaper' },
+    { icon: 'brightness_medium', label: 'Theme' },
+    { icon: 'wallpaper', label: 'Chat Wallpaper' },
     { icon: 'block', label: 'Blocked' },
-    { icon: 'computer', label: 'Desktop Settings' },
-    { icon: 'keyboard_capslock', label: 'Keyboard Shortcuts' },
+    { icon: 'desktop_windows', label: 'Desktop Settings' },
+    { icon: 'brightness_auto', label: 'Keyboard Shortcuts' },
     { icon: 'help', label: 'Help' }
   ];
 }
+
